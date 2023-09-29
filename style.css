@@ -71,7 +71,9 @@ body, html {
     .hero-banner{
         background-color: rgb(255, 50, 50);
         height: 100vh; 
-        padding: 0 20px;
+        padding: 50px 20px;
+        box-sizing: border-box;
+
     }
     .hero-banner h4,
     .hero-banner h4 {
@@ -110,9 +112,28 @@ margin: 14px 0 20px;
     
     
 
-.ccslogo{
+.ccslogo1{
+    background: url(https://www.dropbox.com/scl/fi/5zp2z3shd8f9igeg82xre/ccs.jpg?rlkey=fokmcl72c2o13m8g1qt7veb6g&?raw=1) no-repeat 0 0;
+    background-size: 100pc;
+    width: 363;
+height: 344;
+position:absolute; top: 117px; right: 89px;
 
+}
+.ccslogo2{
+    background: url(characters/ccs-logo.png) no-repeat 0 0;
+    background-size: 100pc;
+    width: 309;
+height: 371;
+position:absolute; top: 213px; right: 277px;
 
+}
+.ccslogo3{
+    background: url(characters/ccs-logo.png) no-repeat 0 0;
+    background-size: 100pc;
+    width: 297;
+height: 286;
+position:absolute; bottom:74px; right:109px;
 }
 
     /*
